@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+.container .title {
+  position: absolute;
+  top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.container .img-hero {
+  top: 4rem;
+  width: 550px;
+  height: 285px;
+  background-image: url(img/kobo.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  position: absolute;
+}
+
+.container .search-container {
+  width: auto;
+  position: absolute;
+  top: 19rem;
+  display: flex;
+}
+.container .search-container input {
+  width: 600px;
+  height: 50px;
+  padding: 0 0 0 1rem;
+  font-size: 1.5rem;
+  border: solid 2px rgba(0, 0, 0, 0.5);
+}
+.container .search-container button {
+  width: 100px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #00b4d8;
+  color: #ffffff;
+  border: none;
+  border: solid 2px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+.container .search-container button:hover {
+  cursor: pointer;
+  outline: solid 2px #4cc9f0;
+}
+.container .search-container input:focus {
+  outline: solid 2px #4cc9f0;
+}
+.container .card-container {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+.container .card-container .card {
+  border-radius: 15px;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e9ecef;
+  color: #343a40;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+.container .card-container .card .icons {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 1rem;
+  border-radius: 50%;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.container .card-container .card .icons img {
+  width: 100px;
+  height: 100px;
+}
+.container .card-container .card .back-color {
+  margin-top: -3rem;
+  border-radius: 15px 15px 0 0;
+  width: 300px;
+  height: 75px;
+  background-color: #4cc9f0;
+}
+.container .card-container .card .info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+  background: #5c91cc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.loader-container img {
+  width: 35rem;
+}
+
+.loader-container.fade-out {
+  top: 110%;
+  opacity: 0;
+}
+@media (max-width: 576px) {
+  .container .title {
+    font-size: 1rem;
+  }
+  .container .img-hero {
+    top: 2rem;
+  }
+  .container .search-container {
+    top: 17rem;
+  }
+  .container .search-container input {
+    width: 250px;
+  }
+}
