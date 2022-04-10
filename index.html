@@ -17,25 +17,17 @@
   </head>
   <body>
     <div class="container">
-      <div class="title">
-        <h1>Kobokan App</h1>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#4CC9F0"
-          fill-opacity="1"
-          d="M0,192L24,170.7C48,149,96,107,144,112C192,117,240,171,288,202.7C336,235,384,245,432,256C480,267,528,277,576,272C624,267,672,245,720,245.3C768,245,816,267,864,277.3C912,288,960,288,1008,250.7C1056,213,1104,139,1152,122.7C1200,107,1248,149,1296,160C1344,171,1392,149,1416,138.7L1440,128L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"
-        ></path>
-      </svg>
-      <div class="img-hero"></div>
-      <div class="search-container">
-        <input type="text" class="input-keyword" placeholder="Search city...." />
-        <button type="submit" class="search-button">Search</button>
+      <div class="herosection">
+        <img src="img/kobo.svg" alt="Kobo Kanaeru" />
+        <div class="search-container">
+          <input type="text" id="search" class="input-keyword" name="search" placeholder="Search city..." />
+          <button class="search-button">Search</button>
+        </div>
       </div>
       <div class="card-container"></div>
-    </div>
-    <div class="loader-container">
-      <img src="img/loader.gif" alt="" />
+      <div class="loader-container">
+        <img src="img/loader.gif" alt="" />
+      </div>
     </div>
     <script src="main.js"></script>
 
