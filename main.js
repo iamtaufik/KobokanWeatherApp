@@ -1,5 +1,5 @@
-// const apiKey = 'jCLPUDFqHDZV7369qCF3gfHGutmpcVKG';
-const apiKey = 'bRx62nQIMH72uPYxEQRTtU2d6C4Vgq1l';
+const apiKey = 'jCLPUDFqHDZV7369qCF3gfHGutmpcVKG';
+// const apiKey = 'bRx62nQIMH72uPYxEQRTtU2d6C4Vgq1l';
 // const apiKey = 'FA2WGKg0MlXXCP1SC4ugWCEVKSQi2sfW';
 const searchButton = document.querySelector('.search-button');
 const container = document.querySelector('.card-container');
