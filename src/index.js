@@ -8,9 +8,9 @@ const searchButton = document.querySelector('.search-button');
 searchButton.addEventListener('click', async () => {
   const container = document.querySelector('.card-container');
   const inputKeyword = document.querySelector('.input-keyword').value;
-  const { key, location } = await weather.getLocation(inputKeyword);
-  const { weatherText, temp, icon, dataDay } = await weather.getWeatherCondition(key);
-  container.innerHTML = renderUi.dataWeather(location, weatherText, icon, temp, dataDay);
+  const { Key, EnglishName } = await weather.getLocation(inputKeyword);
+  const { WeatherText, IsDayTime, temp, WeatherIcon } = await weather.getWeatherCondition(Key);
+  container.innerHTML = renderUi.dataWeather(EnglishName, WeatherText, WeatherIcon, temp, IsDayTime);
 });
 
 const loader = () => {
