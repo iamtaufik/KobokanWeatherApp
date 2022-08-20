@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
-overflow-x:hidden;
+  overflow-x: hidden;
 }
 .container {
   width: 100vw;
@@ -37,7 +37,7 @@ overflow-x:hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-overflow: hidden;
+  overflow: hidden;
 }
 .container .herosection .search-container input {
   width: 80%;
@@ -82,7 +82,6 @@ overflow: hidden;
   color: #23272b;
   display: flex;
   flex-direction: column;
-
 }
 .container .card-container .card .weather-container {
   width: 100%;
@@ -100,7 +99,7 @@ overflow: hidden;
   border: solid 2px rgba(35, 39, 43, 0.5);
   background-color: #fff6f6f6;
   border-radius: 50%;
-overflow: hidden;
+  overflow: hidden;
 }
 
 .container .card-container .card .weather-container .icons img {

@@ -10,7 +10,7 @@ export class RenderUI {
           <img src="img/day.svg" alt="" />
           <div class="weather-container">
             <div class="icons">
-              <img src="img/icons/${icon}.svg" alt=" " />
+              <img src="src/img/icons/${icon}.svg" alt=" " />
             </div>
             <div class="info">
             <h2>${location}</h2>
@@ -25,7 +25,7 @@ export class RenderUI {
                     <img src="img/night.svg" alt="" />
                     <div class="weather-container">
                       <div class="icons">
-                        <img src="img/icons/${icon}.svg" alt=" " />
+                        <img src="src/img/icons/${icon}.svg" alt=" " />
                       </div>
                       <div class="info night">
                       <h2>${location}</h2>
