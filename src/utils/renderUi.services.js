@@ -7,7 +7,7 @@ export class RenderUI {
     if (isDay) {
       this.updateUi('Day');
       return `<div class="card">
-          <img src="/src/img/day.svg" alt="day" />
+          <img src="src/img/day.svg" alt="day" />
           <div class="weather-container">
             <div class="icons">
               <img src="src/img/icons/${icon}.svg" alt=" " />
@@ -22,7 +22,7 @@ export class RenderUI {
     } else {
       this.updateUi('night');
       return `<div class="card">
-                    <img src="/src/img/night.svg" alt="night" />
+                    <img src="src/img/night.svg" alt="night" />
                     <div class="weather-container">
                       <div class="icons">
                         <img src="src/img/icons/${icon}.svg" alt=" " />
