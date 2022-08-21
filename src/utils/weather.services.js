@@ -1,7 +1,7 @@
 export class Weather {
   constructor() {
     this.baseUrl = 'https://dataservice.accuweather.com';
-    this.apiKey = 'jCLPUDFqHDZV7369qCF3gfHGutmpcVKG';
+    this.apiKey = 'bRx62nQIMH72uPYxEQRTtU2d6C4Vgq1l';
   }
 
   async getLocation(inpt) {
